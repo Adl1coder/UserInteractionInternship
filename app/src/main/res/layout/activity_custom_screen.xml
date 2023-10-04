@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back0"
+    android:orientation="vertical"
+    tools:context=".ui.custom.CustomScreen">
+
+    <TextView
+        android:id="@+id/tv_name_surname_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginBottom="@dimen/_32sdp"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:id="@+id/tv_question_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:text="@string/questions"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tv_first_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16ssp"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:text="@string/can_you_write_the_name_of_a_book_you_like"
+        android:textSize="@dimen/_12ssp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_first_question_answer"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tv_second_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16ssp"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:text="@string/can_you_write_a_song_you_like"
+        android:textSize="@dimen/_12ssp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_second_question_answer"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tv_third_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16ssp"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:text="@string/movie_name"
+        android:textSize="@dimen/_12ssp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_third_question_answer"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_custom"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_28sdp"
+        android:background="@color/cardview_light_background"
+        android:text="@string/next"
+        android:textSize="@dimen/_16ssp" />
+
+</LinearLayout>

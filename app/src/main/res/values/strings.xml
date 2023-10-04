@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">UserInteraction</string>
+    <string name="app_name">DataUserInteraction</string>
+    <string name="hello_blank_fragment">Selamlar</string>
+    <string name="name_and_surname">Ad-Soyad</string>
+    <string name="next">İleri</string>
+    <string name="sevmediginsebze">3) Sevmediğin sebze veya meyve ismi?</string>
+    <string name="can_you_write_the_name_of_a_book_you_like">1) Sevdiğin Kitap?</string>
+    <string name="can_you_write_a_song_you_like">2) Sevdiğin şarkı?</string>
+
+    <string name="questions">Sorular</string>
+    <string name="results">Sonuçlar</string>
+    <string name="mail">Mail :</string>
+    <string name="mail_info">Mail</string>
+    <string name="adilegunngorr">adilegunngorr@gmail.com</string>
+    <string name="welcome">Hoşgeldiniz!</string>
+    <string name="phone_number">Telefon numaranız:</string>
+    <string name="phone_number_result">Telefon:</string>
+    <string name="city">Şehir</string>
+    <string name="city_result">Şehriniz :</string>
+    <string name="name_surname">Ad-Soyad :</string>
+    <string name="adile">Adile Güngör</string>
+    <string name="_000000000">000 555 55 55</string>
+    <string name="mersin">Mersin</string>
+    <string name="book_name">Kitap:</string>
+    <string name="cinayet">Morgue Sok. Cinayeti</string>
+    <string name="song_name">Şarkı adı:</string>
+    <string name="unstoppable">Durdurulamaz</string>
+    <string name="movie_name">Film Adı :</string>
+    <string name="girlsscream">Şşş! Kızlar Bağırmaz!</string>
+    <string name="home_page">Anasayfa</string>
 </resources>
