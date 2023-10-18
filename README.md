@@ -13,10 +13,4 @@ It involves obtaining information from the user, transferring it to data classes
 
 görevlerini yerine getiren kodlar yazıldı.
 
-## Ekran Görüntüleri
-![image](https://github.com/Adl1coder/UserInteraction/assets/93915867/d42177f8-77bb-43f1-8df0-8f1c4a4694ea)
-  <img width="171" alt="image" src="https://github.com/Adl1coder/UserInteraction/assets/93915867/5d299cbe-b430-4f17-8ac3-ac55ce146679">
-    <img width="184" alt="image" src="https://github.com/Adl1coder/UserInteraction/assets/93915867/99c0db50-bfbf-4452-80b9-b482af638168">
-      <img width="178" alt="image" src="https://github.com/Adl1coder/UserInteraction/assets/93915867/4ffb5ac4-acf2-4e86-940a-d9627d29f2cf">
-
     
